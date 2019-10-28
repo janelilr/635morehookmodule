@@ -1,0 +1,17 @@
+<?php
+
+function week8_menu(){
+    $items = array();
+    $items ['homework']= array(
+      'title' => 'Homework',
+      'page callback' => 'week8_homework',
+      'access callback' => true,
+
+    );
+    return $items;
+}
+
+function week8_homework(){
+    return l(t("This is the homework."),'node/38');
+}
+

@@ -1,0 +1,15 @@
+<?php
+
+function week8b_menu(){
+    $items = array();
+    $items ['assignment']= array(
+        'title' => 'Assignment',
+        'page callback' => 'week8b_assignment',
+        'access callback' => true,
+    );
+    return $items;
+}
+
+function week8b_assignment(){
+    return l(t("Click to learn more."), 'node/1');
+}

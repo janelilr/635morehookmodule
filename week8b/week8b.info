@@ -1,0 +1,4 @@
+name= week8b
+description= "Creating a module for this homework with a page argument"
+core= 7.x
+package=635

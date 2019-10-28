@@ -1,0 +1,4 @@
+name= week8
+description= "Creating a module for this homework"
+core= 7.x
+package=635

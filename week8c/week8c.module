@@ -1,0 +1,15 @@
+<?php
+
+function week8c_menu(){
+    $items = array();
+    $items ['learning']= array(
+        'title' => 'Learn More',
+        'page callback' => 'week8c_learning',
+        'access callback' => true,
+    );
+    return $items;
+}
+
+function week8c_learning(){
+    return l(t("Check out the awesome site."), 'node/47');
+}
